@@ -1,0 +1,1925 @@
+{
+  "a": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      6
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      6
+    ]
+  },
+  "albatross": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      4
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      10
+    ]
+  },
+  "bird": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      10
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      10
+    ]
+  },
+  "birds": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      9
+    ]
+  },
+  "blackbird": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      4
+    ]
+  },
+  "bluebird": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      12
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      4
+    ]
+  },
+  "cardinal": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      13
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      4
+    ]
+  },
+  "chickadee": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      14
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      4
+    ]
+  },
+  "common": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      7
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      7
+    ]
+  },
+  "crane": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      15
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      4
+    ]
+  },
+  "crawler": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      2
+    ]
+  },
+  "crow": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      16
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      4
+    ]
+  },
+  "cuckoo": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      17
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      4
+    ]
+  },
+  "dove": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      18
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      4
+    ]
+  },
+  "duck": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      19
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      4
+    ]
+  },
+  "eagle": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      20
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      4
+    ]
+  },
+  "egret": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      21
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      4
+    ]
+  },
+  "falcon": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      22
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      4
+    ]
+  },
+  "finch": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      23
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      4
+    ]
+  },
+  "goose": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      24
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      4
+    ]
+  },
+  "gull": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      25
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      4
+    ]
+  },
+  "hawk": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      26
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      4
+    ]
+  },
+  "here": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      4
+    ]
+  },
+  "heron": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      27
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      4
+    ]
+  },
+  "home": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      60
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      11
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      11
+    ]
+  },
+  "hummingbird": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      28
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      4
+    ]
+  },
+  "ibis": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      29
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      4
+    ]
+  },
+  "is": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      5
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      5
+    ]
+  },
+  "kingfisher": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      30
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      4
+    ]
+  },
+  "list": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      7
+    ]
+  },
+  "loon": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      31
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      4
+    ]
+  },
+  "magpie": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      32
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      4
+    ]
+  },
+  "mallard": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      33
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      4
+    ]
+  },
+  "meadowlark": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      34
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      4
+    ]
+  },
+  "mockingbird": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      35
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      4
+    ]
+  },
+  "nighthawk": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      36
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      4
+    ]
+  },
+  "of": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      9
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      9
+    ]
+  },
+  "osprey": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      37
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      4
+    ]
+  },
+  "owl": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      38
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      4
+    ]
+  },
+  "pelican": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      39
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      4
+    ]
+  },
+  "pheasant": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      40
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      4
+    ]
+  },
+  "pigeon": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      41
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      4
+    ]
+  },
+  "puffin": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      42
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      4
+    ]
+  },
+  "quail": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      43
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      4
+    ]
+  },
+  "raven": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      44
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      4
+    ]
+  },
+  "roadrunner": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      45
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      4
+    ]
+  },
+  "robin": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      46
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      4
+    ]
+  },
+  "sandpiper": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      47
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      4
+    ]
+  },
+  "sparrow": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      48
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      4
+    ]
+  },
+  "starling": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      49
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      4
+    ]
+  },
+  "stork": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      50
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      4
+    ]
+  },
+  "swallow": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      51
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      4
+    ]
+  },
+  "swan": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      52
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      4
+    ]
+  },
+  "tern": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      53
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      4
+    ]
+  },
+  "test": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      3
+    ]
+  },
+  "turkey": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      54
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      4
+    ]
+  },
+  "type": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      8
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      8
+    ]
+  },
+  "vulture": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      55
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      4
+    ]
+  },
+  "warbler": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      56
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      4
+    ]
+  },
+  "web": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/albatross.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/blackbird.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/bluebird.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cardinal.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/chickadee.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crane.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/crow.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/cuckoo.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/dove.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/duck.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/eagle.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/egret.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/falcon.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/finch.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/goose.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/gull.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hawk.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/heron.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/hummingbird.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/ibis.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/kingfisher.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/loon.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/magpie.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mallard.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/meadowlark.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/mockingbird.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/nighthawk.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/osprey.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/owl.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pelican.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pheasant.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/pigeon.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/puffin.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/quail.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/raven.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/roadrunner.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/robin.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sandpiper.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/sparrow.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/starling.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/stork.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swallow.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/swan.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/tern.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/turkey.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/vulture.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/warbler.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      1
+    ]
+  },
+  "woodpecker": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      57
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/woodpecker.html": [
+      4
+    ]
+  },
+  "wren": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      58
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/wren.html": [
+      4
+    ]
+  },
+  "yellowthroat": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/crawl/birds.html": [
+      59
+    ]
+  }
+}

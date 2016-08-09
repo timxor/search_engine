@@ -1,0 +1,632 @@
+{
+  "a": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "b": [
+  ],
+  "c": [
+  ],
+  "d": [
+  ],
+  "e": [
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 8
+    }
+  ],
+  "f": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 4,
+      "index": 4
+    }
+  ],
+  "g": [
+  ],
+  "h": [
+  ],
+  "i": [
+  ],
+  "j": [
+  ],
+  "k": [
+  ],
+  "l": [
+  ],
+  "m": [
+  ],
+  "n": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 2,
+      "index": 9
+    }
+  ],
+  "o": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 1,
+      "index": 1
+    }
+  ],
+  "p": [
+  ],
+  "q": [
+  ],
+  "r": [
+  ],
+  "s": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 4,
+      "index": 6
+    }
+  ],
+  "t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 6,
+      "index": 2
+    }
+  ],
+  "u": [
+  ],
+  "v": [
+  ],
+  "w": [
+  ],
+  "x": [
+  ],
+  "y": [
+  ],
+  "z": [
+  ],
+  "a b": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "c d": [
+  ],
+  "e f": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    }
+  ],
+  "g h": [
+  ],
+  "i j": [
+  ],
+  "k l": [
+  ],
+  "m n": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 2,
+      "index": 9
+    }
+  ],
+  "o p": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 1,
+      "index": 1
+    }
+  ],
+  "q r": [
+  ],
+  "s t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "u v": [
+  ],
+  "w x": [
+  ],
+  "y z": [
+  ],
+  "a b c": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "d e f": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    }
+  ],
+  "g h i": [
+  ],
+  "j k l": [
+  ],
+  "m n o": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "p q r": [
+  ],
+  "s t u": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "v w x": [
+  ],
+  "a b c d": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "e f g h": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    }
+  ],
+  "i j k l": [
+  ],
+  "m n o p": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "q r s t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "u v w x": [
+  ],
+  "a b c d e": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 8
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "f g h i j": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 4,
+      "index": 4
+    }
+  ],
+  "k l m n o": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "p q r s t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "u v w x y": [
+  ],
+  "a b c d e f": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "g h i j k l": [
+  ],
+  "m n o p q r": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "s t u v w x": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "a b c d e f g": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "h i j k l m n": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 2,
+      "index": 9
+    }
+  ],
+  "o p q r s t u": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 11,
+      "index": 1
+    }
+  ],
+  "a b c d e f g h": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "i j k l m n o p": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "q r s t u v w x": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 10,
+      "index": 2
+    }
+  ],
+  "a b c d e f g h i": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "j k l m n o p q r": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "a b c d e f g h i j": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 10,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 7,
+      "index": 4
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/a/b/c/d/subdir.txt",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 5
+    }
+  ],
+  "k l m n o p q r s t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 13,
+      "index": 1
+    }
+  ],
+  "0": [
+  ],
+  "1": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "2": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 2
+    }
+  ],
+  "3": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 1,
+      "index": 3
+    }
+  ],
+  "4": [
+  ],
+  "5": [
+  ],
+  "6": [
+  ],
+  "7": [
+  ],
+  "8": [
+  ],
+  "9": [
+  ],
+  "0 1": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 3,
+      "index": 1
+    }
+  ],
+  "2 3": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 2,
+      "index": 2
+    }
+  ],
+  "4 5": [
+  ],
+  "6 7": [
+  ],
+  "8 9": [
+  ],
+  "0 1 2 3 4": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 5,
+      "index": 1
+    }
+  ],
+  "5 6 7 8 9": [
+  ],
+  "0 1 2 3 4 5 6 7 8 9": [
+    {
+      "where": "input/index/simple/digits.txt",
+      "count": 5,
+      "index": 1
+    }
+  ]
+}

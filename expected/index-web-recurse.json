@@ -1,0 +1,708 @@
+{
+  "crawler": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link01.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link02.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link03.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link04.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link05.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link06.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link07.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link08.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link09.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link10.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link11.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link12.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link13.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link14.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link15.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link16.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link17.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link18.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link19.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link20.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link21.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link22.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link23.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link24.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link25.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link26.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link27.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link28.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link29.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link30.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link31.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link32.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link33.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link34.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link35.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link36.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link37.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link38.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link39.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link40.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link41.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link42.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link43.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link44.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link45.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link46.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link47.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link48.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link49.html": [
+      2
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link50.html": [
+      2
+    ]
+  },
+  "link02html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link01.html": [
+      4
+    ]
+  },
+  "link03html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link02.html": [
+      4
+    ]
+  },
+  "link04html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link03.html": [
+      4
+    ]
+  },
+  "link05html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link04.html": [
+      4
+    ]
+  },
+  "link06html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link05.html": [
+      4
+    ]
+  },
+  "link07html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link06.html": [
+      4
+    ]
+  },
+  "link08html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link07.html": [
+      4
+    ]
+  },
+  "link09html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link08.html": [
+      4
+    ]
+  },
+  "link10html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link09.html": [
+      4
+    ]
+  },
+  "link11html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link10.html": [
+      4
+    ]
+  },
+  "link12html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link11.html": [
+      4
+    ]
+  },
+  "link13html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link12.html": [
+      4
+    ]
+  },
+  "link14html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link13.html": [
+      4
+    ]
+  },
+  "link15html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link14.html": [
+      4
+    ]
+  },
+  "link16html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link15.html": [
+      4
+    ]
+  },
+  "link17html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link16.html": [
+      4
+    ]
+  },
+  "link18html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link17.html": [
+      4
+    ]
+  },
+  "link19html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link18.html": [
+      4
+    ]
+  },
+  "link20html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link19.html": [
+      4
+    ]
+  },
+  "link21html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link20.html": [
+      4
+    ]
+  },
+  "link22html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link21.html": [
+      4
+    ]
+  },
+  "link23html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link22.html": [
+      4
+    ]
+  },
+  "link24html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link23.html": [
+      4
+    ]
+  },
+  "link25html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link24.html": [
+      4
+    ]
+  },
+  "link26html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link25.html": [
+      4
+    ]
+  },
+  "link27html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link26.html": [
+      4
+    ]
+  },
+  "link28html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link27.html": [
+      4
+    ]
+  },
+  "link29html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link28.html": [
+      4
+    ]
+  },
+  "link30html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link29.html": [
+      4
+    ]
+  },
+  "link31html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link30.html": [
+      4
+    ]
+  },
+  "link32html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link31.html": [
+      4
+    ]
+  },
+  "link33html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link32.html": [
+      4
+    ]
+  },
+  "link34html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link33.html": [
+      4
+    ]
+  },
+  "link35html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link34.html": [
+      4
+    ]
+  },
+  "link36html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link35.html": [
+      4
+    ]
+  },
+  "link37html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link36.html": [
+      4
+    ]
+  },
+  "link38html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link37.html": [
+      4
+    ]
+  },
+  "link39html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link38.html": [
+      4
+    ]
+  },
+  "link40html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link39.html": [
+      4
+    ]
+  },
+  "link41html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link40.html": [
+      4
+    ]
+  },
+  "link42html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link41.html": [
+      4
+    ]
+  },
+  "link43html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link42.html": [
+      4
+    ]
+  },
+  "link44html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link43.html": [
+      4
+    ]
+  },
+  "link45html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link44.html": [
+      4
+    ]
+  },
+  "link46html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link45.html": [
+      4
+    ]
+  },
+  "link47html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link46.html": [
+      4
+    ]
+  },
+  "link48html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link47.html": [
+      4
+    ]
+  },
+  "link49html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link48.html": [
+      4
+    ]
+  },
+  "link50html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link49.html": [
+      4
+    ]
+  },
+  "link51html": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link50.html": [
+      4
+    ]
+  },
+  "test": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link01.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link02.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link03.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link04.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link05.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link06.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link07.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link08.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link09.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link10.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link11.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link12.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link13.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link14.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link15.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link16.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link17.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link18.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link19.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link20.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link21.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link22.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link23.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link24.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link25.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link26.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link27.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link28.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link29.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link30.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link31.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link32.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link33.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link34.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link35.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link36.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link37.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link38.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link39.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link40.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link41.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link42.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link43.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link44.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link45.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link46.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link47.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link48.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link49.html": [
+      3
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link50.html": [
+      3
+    ]
+  },
+  "web": {
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link01.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link02.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link03.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link04.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link05.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link06.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link07.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link08.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link09.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link10.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link11.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link12.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link13.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link14.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link15.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link16.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link17.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link18.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link19.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link20.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link21.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link22.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link23.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link24.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link25.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link26.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link27.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link28.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link29.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link30.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link31.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link32.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link33.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link34.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link35.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link36.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link37.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link38.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link39.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link40.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link41.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link42.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link43.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link44.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link45.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link46.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link47.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link48.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link49.html": [
+      1
+    ],
+    "http://www.cs.usfca.edu/~sjengle/cs212/recurse/link50.html": [
+      1
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "two": [
+    {
+      "where": "input/index/gutenberg/4300.txt",
+      "count": 409,
+      "index": 345
+    },
+    {
+      "where": "input/index/gutenberg/2701.txt",
+      "count": 295,
+      "index": 837
+    },
+    {
+      "where": "input/index/gutenberg/98.txt",
+      "count": 219,
+      "index": 9
+    },
+    {
+      "where": "input/index/gutenberg/1661.txt",
+      "count": 150,
+      "index": 1389
+    },
+    {
+      "where": "input/index/gutenberg/1342.txt",
+      "count": 135,
+      "index": 1090
+    },
+    {
+      "where": "input/index/gutenberg/1322.txt",
+      "count": 77,
+      "index": 2606
+    },
+    {
+      "where": "input/index/rfcs/rfc3031.txt",
+      "count": 43,
+      "index": 859
+    },
+    {
+      "where": "input/index/gutenberg/11.txt",
+      "count": 39,
+      "index": 2042
+    },
+    {
+      "where": "input/index/rfcs/rfc6797.txt",
+      "count": 8,
+      "index": 1621
+    },
+    {
+      "where": "input/index/rfcs/rfc6841.txt",
+      "count": 6,
+      "index": 712
+    },
+    {
+      "where": "input/index/rfcs/rfc6819.txt",
+      "count": 6,
+      "index": 1826
+    },
+    {
+      "where": "input/index/rfcs/rfc6805.txt",
+      "count": 4,
+      "index": 2736
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 1,
+      "index": 2
+    },
+    {
+      "where": "input/index/rfcs/rfc475.txt",
+      "count": 1,
+      "index": 66
+    },
+    {
+      "where": "input/index/rfcs/rfc6838.txt",
+      "count": 1,
+      "index": 8574
+    }
+  ],
+  "chicka-dee": [
+    {
+      "where": "input/index/gutenberg/1322.txt",
+      "count": 1,
+      "index": 8903
+    }
+  ],
+  "aa": [
+    {
+      "where": "input/index/gutenberg/98.txt",
+      "count": 3,
+      "index": 8156
+    },
+    {
+      "where": "input/index/rfcs/rfc3031.txt",
+      "count": 3,
+      "index": 8797
+    },
+    {
+      "where": "input/index/gutenberg/4300.txt",
+      "count": 2,
+      "index": 88188
+    },
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    }
+  ],
+  "t": [
+    {
+      "where": "input/index/gutenberg/4300.txt",
+      "count": 37546,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/2701.txt",
+      "count": 35537,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/98.txt",
+      "count": 21090,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/1322.txt",
+      "count": 20566,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/1342.txt",
+      "count": 16346,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/1661.txt",
+      "count": 15384,
+      "index": 3
+    },
+    {
+      "where": "input/index/gutenberg/11.txt",
+      "count": 4806,
+      "index": 10
+    },
+    {
+      "where": "input/index/rfcs/rfc6819.txt",
+      "count": 3397,
+      "index": 3
+    },
+    {
+      "where": "input/index/rfcs/rfc3031.txt",
+      "count": 3248,
+      "index": 15
+    },
+    {
+      "where": "input/index/rfcs/rfc6797.txt",
+      "count": 1762,
+      "index": 3
+    },
+    {
+      "where": "input/index/rfcs/rfc6838.txt",
+      "count": 1624,
+      "index": 3
+    },
+    {
+      "where": "input/index/rfcs/rfc6805.txt",
+      "count": 1352,
+      "index": 3
+    },
+    {
+      "where": "input/index/rfcs/rfc6841.txt",
+      "count": 984,
+      "index": 3
+    },
+    {
+      "where": "input/index/rfcs/rfc475.txt",
+      "count": 491,
+      "index": 21
+    },
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 6,
+      "index": 2
+    }
+  ],
+  "elephANT & ANTelope": [
+    {
+      "where": "input/index/gutenberg/2701.txt",
+      "count": 32,
+      "index": 16935
+    },
+    {
+      "where": "input/index/gutenberg/4300.txt",
+      "count": 11,
+      "index": 32117
+    },
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 9,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    },
+    {
+      "where": "input/index/gutenberg/1322.txt",
+      "count": 1,
+      "index": 33762
+    },
+    {
+      "where": "input/index/gutenberg/98.txt",
+      "count": 1,
+      "index": 63876
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "two": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 1,
+      "index": 2
+    }
+  ],
+  "chicka-dee": [
+  ],
+  "aa": [
+    {
+      "where": "input/index/simple/capital_extension.TXT",
+      "count": 1,
+      "index": 1
+    }
+  ],
+  "t": [
+    {
+      "where": "input/index/simple/position.txt",
+      "count": 6,
+      "index": 2
+    }
+  ],
+  "elephANT & ANTelope": [
+    {
+      "where": "input/index/simple/symbols.txt",
+      "count": 9,
+      "index": 1
+    },
+    {
+      "where": "input/index/simple/capitals.txt",
+      "count": 4,
+      "index": 1
+    }
+  ]
+}

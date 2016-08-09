@@ -1,0 +1,168 @@
+{
+  "1": {
+    "input/index/simple/digits.txt": [
+      1
+    ]
+  },
+  "123": {
+    "input/index/simple/digits.txt": [
+      4
+    ]
+  },
+  "123a": {
+    "input/index/simple/digits.txt": [
+      6
+    ]
+  },
+  "2": {
+    "input/index/simple/digits.txt": [
+      2
+    ]
+  },
+  "3": {
+    "input/index/simple/digits.txt": [
+      3
+    ]
+  },
+  "a123": {
+    "input/index/simple/digits.txt": [
+      5
+    ]
+  },
+  "aardvark": {
+    "input/index/simple/capital_extension.TXT": [
+      1
+    ]
+  },
+  "alpaca": {
+    "input/index/simple/a/b/c/d/subdir.txt": [
+      1
+    ]
+  },
+  "antelope": {
+    "input/index/simple/symbols.txt": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "antelöpé": {
+    "input/index/simple/symbols.txt": [
+      10
+    ]
+  },
+  "eight": {
+    "input/index/simple/position.txt": [
+      8
+    ]
+  },
+  "eighteen": {
+    "input/index/simple/position.txt": [
+      18
+    ]
+  },
+  "elephant": {
+    "input/index/simple/capitals.txt": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "eleven": {
+    "input/index/simple/position.txt": [
+      11
+    ]
+  },
+  "fifteen": {
+    "input/index/simple/position.txt": [
+      15
+    ]
+  },
+  "five": {
+    "input/index/simple/position.txt": [
+      5
+    ]
+  },
+  "four": {
+    "input/index/simple/position.txt": [
+      4
+    ]
+  },
+  "fourteen": {
+    "input/index/simple/position.txt": [
+      14
+    ]
+  },
+  "nine": {
+    "input/index/simple/position.txt": [
+      9
+    ]
+  },
+  "nineteen": {
+    "input/index/simple/position.txt": [
+      19
+    ]
+  },
+  "one": {
+    "input/index/simple/position.txt": [
+      1
+    ]
+  },
+  "seven": {
+    "input/index/simple/position.txt": [
+      7
+    ]
+  },
+  "seventeen": {
+    "input/index/simple/position.txt": [
+      17
+    ]
+  },
+  "six": {
+    "input/index/simple/position.txt": [
+      6
+    ]
+  },
+  "sixteen": {
+    "input/index/simple/position.txt": [
+      16
+    ]
+  },
+  "ten": {
+    "input/index/simple/position.txt": [
+      10
+    ]
+  },
+  "thirteen": {
+    "input/index/simple/position.txt": [
+      13
+    ]
+  },
+  "three": {
+    "input/index/simple/position.txt": [
+      3
+    ]
+  },
+  "twelve": {
+    "input/index/simple/position.txt": [
+      12
+    ]
+  },
+  "twenty": {
+    "input/index/simple/position.txt": [
+      20
+    ]
+  },
+  "two": {
+    "input/index/simple/position.txt": [
+      2
+    ]
+  }
+}
