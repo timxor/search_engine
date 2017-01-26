@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="JavaSE-1.8" jdk_type="JavaSDK">
+	<output-test url="file://$MODULE_DIR$/out/test/SearchEngine"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/expected"/>
+		<testFolder url="file://$MODULE_DIR$/input"/>
+	</contentEntry>
+	<levels>
+		<level name="org.hamcrest:hamcrest-all:1.3" value="project"/>
+	</levels>
+</component>

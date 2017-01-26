@@ -1,103 +1,63 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
+/*
+ * =============================================================================
+ * Production:   =        http://youtalky.com
+ * Source:       =        https://github.com/usf-cs212-2016/project-tcsiwula
+ * File:         =        IndexBuilder.java
+ * Created:      =        11/6/16
+ * Author:       =        Tim Siwula <tcsiwula@gmail.com>
+ * University:   =        University of San Francisco
+ * Class:        =        CS 212: Software Development
+ * License:      =        GPLv2
+ * Version:      =        0.001
+ * ==============================================================================
+ */
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
-/**
- * The class Builder is responsible for building the index.
- *
- */
-public class IndexBuilder
+public class IndexBuilder implements IndexBuilderInterface
 {
-	/** Regular expression for removing special characters. */
-	public static final String CLEAN_REGEX = "(?U)[^\\p{Alnum}\\p{Space}]+";
+	/**
+	 * Stores the index.
+	 */
+	private final InvertedIndex index;
 
-	/** Regular expression for splitting text into words by whitespace. */
-	public static final String SPLIT_REGEX = "(?U)\\p{Space}+";
+	/**
+	 * Class constructor that builds the searchResults from the query list.
+	 */
+	public IndexBuilder(InvertedIndex index)
+	{
+		this.index = index;
+	}
 
 	/**
 	 * The method buildIndex is responsible for populating the data structure with the word, file and location data.
 	 *
-	 * @param files
-	 *            This is the list of files to process.
-	 *
-	 * @param invertedIndex
-	 *            This is a triple nested data structure.
+	 * @param files This is the list of files to process.
 	 */
-	public static void buildIndex(Set<Path> files, InvertedIndex invertedIndex) throws IOException
+	public void recurse(Set<Path> files)
 	{
 		for (Path i : files)
 		{
-			if (Files.exists(i))
+			if(Files.exists(i))
 			{
-				try (BufferedReader reader = Files.newBufferedReader(i))
+				try
 				{
-					Integer location = 1;
-					String line = null;
-					while ((line = reader.readLine()) != null)
-					{
-						String[] words = split(line);
-
-						for (String s : words)
-						{
-							invertedIndex.add(s, i, location);
-							location++;
-						}
-					}
-				}
-				catch (FileNotFoundException e)
+					IndexBuilderInterface.buildIndex(i, index);
+				} catch (ArithmeticException | IllegalArgumentException | NoSuchElementException | IOException e)
 				{
-					System.err.println("Please check that your file exists. It was not found.");
-				}
-				catch (IOException x)
-				{
-					System.err.println("Please check with your local Builder expert. You have an exception in the method buildIndex()");
-				}
-				catch (Exception e)
-				{
-					System.err.println("This shouldn't ever happen, but then again, bugs happen");
-					System.err.println(e.toString());
+					System.err.println("Unable to construct the index with your files and index.");
 				}
 			}
 		}
 	}
 
-	/**
-	 * The method split() splits all the words and returns them in an array.
-	 *
-	 * @param text
-	 *            This is the list of files to process.
-	 */
-	public static String[] split(String text)
+	@Override public void buildIndex(String directory)
 	{
-		String[] arrayOfWords = new String[] // declare and initialize array to return
-		{};
-
-		text = clean(text); // clean word
-		if (text.isEmpty()) // check to see if there is any text and return array if empty
-		{
-			return arrayOfWords;
-		}
-		else
-		{
-			arrayOfWords = text.split(SPLIT_REGEX); // put words into array and return array
-			return arrayOfWords;
-		}
-	}
-
-	/**
-	 * The method clean() processes all words and removes special characters, converts to lower case.
-	 *
-	 * @param word
-	 *            This is the word to clean.
-	 */
-	public static String clean(String word)
-	{
-		word = word.toLowerCase();
-		word = word.replaceAll(CLEAN_REGEX, ""); // replace special characters
-		word = word.trim(); // remove white space
-		return word;
+		Set<Path> files = DirectoryTraverser.getAllFiles(directory);
+		recurse(files);
 	}
 }

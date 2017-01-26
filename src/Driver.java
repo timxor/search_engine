@@ -1,219 +1,163 @@
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Set;
-
-/**
- * This software driver class provides a consistent entry point for the search engine. Based on the arguments provided
- * to {@link #main(String[])}, it creates the necessary objects and calls the necessary methods to build an inverted
- * index, process search queries, configure multithreading, and launch a web server (if appropriate).
+/*
+ * =============================================================================
+ * Production:   =        http://youtalky.com
+ * Source:       =        https://github.com/usf-cs212-2016/project-tcsiwula
+ * File:         =        Driver.java
+ * Created:      =        11/6/16
+ * Author:       =        Tim Siwula <tcsiwula@gmail.com>
+ * University:   =        University of San Francisco
+ * Class:        =        CS 212: Software Development
+ * License:      =        GPLv2
+ * Version:      =        0.001
+ * ==============================================================================
  */
+
 public class Driver
 {
 	/**
-	 * Flag used to indicate the following value is an input directory of text files to use when building the inverted
-	 * index.
-	 * 
-	 * @see "Projects 1 to 5"
-	 */
-	public static final String INPUT_FLAG = "-input";
-
-	/**
 	 * Flag used to indicate the following value is the path to use when outputting the inverted index to a JSON file.
-	 * If no value is provided, then {@link #INDEX_DEFAULT} should be used. If this flag is not provided, then the
-	 * inverted index should not be output to a file.
-	 * 
-	 * @see "Projects 1 to 5"
 	 */
-	public static final String INDEX_FLAG = "-index";
+	private static final String INDEX_FLAG = "-index";
 
 	/**
 	 * Flag used to indicate the following value is a text file of search queries.
-	 * 
-	 * @see "Projects 2 to 5"
 	 */
-	public static final String QUERIES_FLAG = "-query";
+	private static final String DIRECTORY_FLAG = "-dir";
 
 	/**
-	 * Flag used to indicate the following value is the path to use when outputting the search results to a JSON file.
-	 * If no value is provided, then {@link #RESULTS_DEFAULT} should be used. If this flag is not provided, then the
-	 * search results should not be output to a file.
-	 * 
-	 * @see "Projects 2 to 5"
+	 * Flag used to indicate the following value is a text file of search queries.
 	 */
-	public static final String RESULTS_FLAG = "-results";
+	private static final String QUERIES_FLAG = "-query";
 
 	/**
-	 * Flag used to indicate the following value is the number of threads to use when configuring multithreading. If no
-	 * value is provided, then {@link #THREAD_DEFAULT} should be used. If this flag is not provided, then multithreading
-	 * should NOT be used.
-	 * 
-	 * @see "Projects 3 to 5"
+	 * Flag used to indicate where to write the search results.
 	 */
-	public static final String THREAD_FLAG = "-threads";
+	private static final String RESULTS_FLAG = "-results";
 
 	/**
-	 * Flag used to indicate the following value is the seed URL to use when building the inverted index.
-	 * 
-	 * @see "Projects 4 to 5"
+	 * Flag used to indicate an exact search.
 	 */
-	public static final String SEED_FLAG = "-seed";
+	private static final String EXACT_FLAG = "-exact";
 
 	/**
-	 * Flag used to indicate the following value is the port number to use when starting a web server. If no value is
-	 * provided, then {@link #PORT_DEFAULT} should be used. If this flag is not provided, then a web server should not
-	 * be started.
+	 * Flag used to indicate an crawler should search.
 	 */
-	public static final String PORT_FLAG = "-port";
+	private static final String CRAWL_FLAG = "-url";
 
 	/**
-	 * Default to use when the value for the {@link #INDEX_FLAG} is missing.
+	 * Flag used to indicate an crawler should search.
 	 */
-	public static final String INDEX_DEFAULT = "index.json";
+	private static final String THREAD_FLAG = "-multi";
 
 	/**
-	 * Default to use when the value for the {@link #RESULTS_FLAG} is missing.
+	 * Flag used to indicate a port to use for the server.
 	 */
-	public static final String RESULTS_DEFAULT = "results.json";
+	private static final String PORT_FLAG = "-port";
 
 	/**
 	 * Default to use when the value for the {@link #THREAD_FLAG} is missing.
 	 */
-	public static final int THREAD_DEFAULT = 5;
+	private static final int THREAD_DEFAULT = 5;
 
 	/**
 	 * Default to use when the value for the {@link #PORT_FLAG} is missing.
 	 */
-	public static final int PORT_DEFAULT = 8080;
+	private static final int PORT_DEFAULT = 8080;
+
+	/**
+	 * Default to use when the value for the {@link #INDEX_FLAG} is missing.
+	 */
+	private static final String INDEX_DEFAULT = "index.json";
+
+	/**
+	 * Default to use when the value for the {@link #RESULTS_FLAG} is missing.
+	 */
+	private static final String RESULTS_DEFAULT = "results.json";
 
 	/**
 	 * Parses the provided arguments and, if appropriate, will build an inverted index from a directory or seed URL,
 	 * process search queries, configure multithreading, and launch a web server.
-	 * 
-	 * @param args
-	 *            set of flag and value pairs
-	 * @throws IOException
+	 *
+	 * @param args set of flag and value pairs
 	 */
 	public static void main(String[] args)
 	{
-		// Step #1 Initialize helper classes to use.
-		ArgumentParser argParser = new ArgumentParser();
-		InvertedIndex index = new InvertedIndex();
+		// declare interface classes
+		CLIParser parser = new CLIParser(args);
+		ThreadedWorkQueue workers = null;
+		InvertedIndex index;
+		SearchResultBuilder searchBuilder;
+		SearchResultBuilderInterface searcher;
+		CrawlerInterface crawler;
+		IndexBuilderInterface builder;
+		ViewWebServer webServer;
 
-		// Step #2 Process arguments and file paths.
-		argParser.parseArguments(args);
+		if(parser.hasFlag(Driver.THREAD_FLAG))    // if it is multi-threaded
+		{
+			// get number of threads and confirm
+			int numThreads = parser.getValueInt(Driver.THREAD_FLAG, Driver.THREAD_DEFAULT);
+			numThreads = numThreads < 1 ? Driver.THREAD_DEFAULT : numThreads;
+
+			// define threaded classes
+			IndexThreaded concurrentIndex = new IndexThreaded();
+
+			// assign interface classes to threaded classes
+			index = concurrentIndex;
+			workers = new ThreadedWorkQueue(numThreads);
+			searcher = new SearchResultBuilderThreaded(concurrentIndex, workers);
+			crawler = new CrawlerThreaded(concurrentIndex, workers);
+			builder = new IndexBuilderThreaded(concurrentIndex, workers);
+
+		} else    // define single threaded classes
+		{
+			index = new InvertedIndex();
+			searcher = new SearchResultBuilder(index);
+			crawler = new Crawler(index);
+			builder = new IndexBuilder(index);
+		}
+
+		if(parser.hasFlag(Driver.DIRECTORY_FLAG)) //Build index from files.
+		{
+			builder.buildIndex(parser.getValue(Driver.DIRECTORY_FLAG, Driver.RESULTS_DEFAULT));
+		}
+
+		if(parser.hasFlag(Driver.CRAWL_FLAG)) // Crawl here
+		{
+			crawler.startCrawl(parser.getValue(Driver.CRAWL_FLAG));
+		}
+
+		if(parser.hasFlag(Driver.INDEX_FLAG)) // Output results to file.
+		{
+			index.toJSON(parser.getValue(Driver.INDEX_FLAG, Driver.INDEX_DEFAULT));
+		}
+
+		if(parser.hasFlag(Driver.EXACT_FLAG)) // Perform Exact Search here.
+		{
+			searcher.parseQueryFile(parser.getValue(Driver.EXACT_FLAG, Driver.RESULTS_DEFAULT), true);
+		}
+
+		if(parser.hasFlag(QUERIES_FLAG)) // Perform Partial Search here
+		{
+			searcher.parseQueryFile(parser.getValue(Driver.QUERIES_FLAG, Driver.RESULTS_DEFAULT), false);
+		}
+
+		if(parser.hasFlag(RESULTS_FLAG)) // Output Results here
+		{
+			searcher.toJSON(parser.getValue(Driver.RESULTS_FLAG, Driver.RESULTS_DEFAULT));
+		}
+
+		if(parser.hasFlag(PORT_FLAG)) // webserver
+		{
+			// create server and start it
+			webServer = new ViewWebServer(index, (SearchResultBuilder) searcher, crawler, parser);
+			webServer.setPortNumber(parser.getValueInt(Driver.PORT_FLAG, Driver.PORT_DEFAULT), Driver.PORT_DEFAULT);
+			webServer.startServer();
+		}
 		
-		// TODO If you are going to use hard-coded flags, go ahead and delete the constants at the top of this file.
-		String inputFileOfIndex = getOrDefault(argParser, "-input", null);
-		String outputFileOfIndex = getOrDefault(argParser, "-index", "index.json");
-		Path outputFile = Paths.get(outputFileOfIndex).toAbsolutePath().normalize();
-
-		if (hasNoErrors(argParser))
+		if(workers != null)    // if multithreaded
 		{
-			try
-			{
-				// Step #3 Add files to a list.
-				Set<Path> files = DirectoryTraverser.getAllFiles(inputFileOfIndex);
-
-				// Step #4 Build index from files.
-				IndexBuilder.buildIndex(files, index);
-
-				// Step #5 Output results to file.
-				if (createOutputFileForIndex(argParser))
-				{
-					if (!index.isEmpty())
-					{
-						index.toJSON(outputFile);
-					}
-				}
-			}
-			catch (FileNotFoundException e)
-			{
-				System.err.println("Please check that your file exists. It was not found.");
-			}
-			catch (IOException x)
-			{
-				System.err.println("Please check with your local Builder expert. You have an exception in the method buildIndex()");
-			}
-			catch (Exception e)
-			{
-				System.err.println("This shouldn't ever happen, but then again, bugs happen");
-				System.err.println(e.toString());
-			}
+			workers.shutdown();        // return resources back to the system.
 		}
-		else
-		{
-			System.err.println("Now terminating program. Please enter correct args.");
-		}
+		
 	}
-
-	/**
-	 * See if user included a "-input" argument. If so then we need to make a file.
-	 * 
-	 * @see #hasValue(String)
-	 */
-	public static boolean createOutputFileForIndex(ArgumentParser argParser)
-	{
-		return argParser.hasValue("-input");
-	}
-
-	/**
-	 * See if user included a "-query" argument. If so then we need to build the search results.
-	 * 
-	 * @see #hasValue(String)
-	 */
-	public boolean buildSearchResults(ArgumentParser argParser)
-	{
-		return argParser.hasValue("-query");
-	}
-
-	/**
-	 * See if user included a "-results" argument. If so then we need to output the search results.
-	 * 
-	 * @see #hasFlag(String)
-	 */
-	public boolean createOutputFileForSearch(ArgumentParser argParser)
-	{
-		return argParser.hasFlag("-results");
-	}
-
-	// TODO Maybe move this to ArgumentParser and use the Map.getOrDefault() method:
-	// TODO https://docs.oracle.com/javase/8/docs/api/java/util/Map.html#getOrDefault-java.lang.Object-V-
-	
-	/**
-	 * Determine the path for a given flag. If specified, get specific path else return default.
-	 * 
-	 * @see #getValue(String)
-	 */
-	public static String getOrDefault(ArgumentParser argParser, String flag, String defaultFile)
-	{
-		if (flag.equalsIgnoreCase("-index") && argParser.getValue("-index") != null) // #1 output file for index 
-		{
-			return argParser.getValue("-index");
-		}
-		else if (flag.equalsIgnoreCase("-input") && argParser.getValue("-input") != null) //#2 input file for index
-		{
-			return argParser.getValue("-input");
-		}
-		else
-		{
-			return defaultFile;
-		}
-	}
-
-	/**
-	 * Returns true if the command line arguments are incorrect else false.
-	 *
-	 * @param args
-	 *            command-line arguments
-	 *
-	 * @see #isFlag(String)
-	 * @see #isValue(String)
-	 */
-	public static boolean hasNoErrors(ArgumentParser argParser)
-	{
-		return (argParser.hasFlag("-index") || argParser.hasFlag("-results"));
-	}
-
 }
