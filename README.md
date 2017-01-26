@@ -1,5 +1,6 @@
-# Search Engine
-/*
+# search_engine
+A java search engine that supports crawling, indexing, partial search and exact search.
+
  * =============================================================================
  * Project:     =        SearchEngine
  * Production:  =        http://youtalky.com
@@ -11,5 +12,15 @@
  * License:      =        GPLv2
  * Version:      =        0.001
  * ==============================================================================
- */
 ![Animated Demo](search.gif)
+
+## Run locally
+
+```sh
+$ javac src/*.java
+$ java src/ViewWebServer
+```
+
+```sh
+Open browser to http://localhost:8080/
+```

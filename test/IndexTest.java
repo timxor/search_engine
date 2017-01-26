@@ -1,6 +1,3 @@
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Rule;
@@ -9,6 +6,9 @@ import org.junit.experimental.runners.Enclosed;
 import org.junit.rules.Timeout;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 @RunWith(Enclosed.class)
 public class IndexTest extends ProjectTest {

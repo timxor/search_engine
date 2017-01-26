@@ -8,5 +8,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="apache_commons" level="project" />
+    <orderEntry type="library" name="jetty" level="project" />
+    <orderEntry type="library" name="Junit4" level="project" />
+    <orderEntry type="library" name="log4j2" level="project" />
   </component>
 </module>
