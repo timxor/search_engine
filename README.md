@@ -1,5 +1,7 @@
 # search_engine
 A java search engine that supports crawling, indexing, partial search and exact search.
+![Animated Demo](search.gif)
+
 
  * =============================================================================
  * Project:     =        SearchEngine
@@ -12,7 +14,6 @@ A java search engine that supports crawling, indexing, partial search and exact 
  * License:      =        GPLv2
  * Version:      =        0.001
  * ==============================================================================
-![Animated Demo](search.gif)
 
 ## Run locally
 
