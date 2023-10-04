@@ -23,7 +23,7 @@ A java search engine that supports crawling, indexing, partial search and exact 
 
 mvn clean package
 
-java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
+java -jar target/searchengineapp-0.0.1-SNAPSHOT.jar
 
 
 
@@ -35,7 +35,7 @@ mvn clean compile -U
 mvn -U clean install
 
 mvn -U clean package
-java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
+java -jar target/searchengineapp-0.0.1-SNAPSHOT.jar
 
 
 ```
@@ -43,8 +43,8 @@ java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
 
 ```
 
-javac src/*.java
-java src/ViewWebServer
+javac src/main/java/com/timsiwula/searchengineapp/*.java
+java src/main/java/com/timsiwula/searchengineapp/Driver
 
 ```
 

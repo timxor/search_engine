@@ -10,9 +10,48 @@
  * License:      =        GPLv2
  * Version:      =        0.001
  * ==============================================================================
+
+
+
+
+
+ java Driver -dir input/index/simple -index index-simple.json
+ java Driver -index -dir input/index/simple
+ java Driver -dir input/index/simple
+
+
+
+
+
+
+
+ * ==============================================================================
+ *  
+ *  
+ *  
+ *  
+ *  
+ *  
+ * 
+ *  
+ *  
+ *  
+ *  
+ *  
+ *  
+ * 
+ * ==============================================================================
  */
+ 
+ 
+ 
 package com.timsiwula.searchengineapp;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
 public class Driver
 {
 	/**
@@ -83,7 +122,7 @@ public class Driver
 	 */
 	public static void main(String[] args)
 	{
-		System.out.println("Driver.java.main()");
+
 		// declare interface classes
 		CLIParser parser = new CLIParser(args);
 		ThreadedWorkQueue workers = null;
@@ -161,5 +200,18 @@ public class Driver
 			workers.shutdown();        // return resources back to the system.
 		}
 		
-	}
+		SpringApplication.run(Driver.class, args);
+    
+    
+    System.out.println("");
+    System.out.println("");
+    System.out.println("* ============================================================================== *");
+    System.out.println("");
+    System.out.println("Driver.java --> main()");
+    System.out.println("");
+    System.out.println("Driver running at:  http://localhost:8080/ ");
+    System.out.println("");
+    System.out.println("* ============================================================================== *");
+	
+  }
 }
