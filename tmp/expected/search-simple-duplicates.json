@@ -1,0 +1,31 @@
+{
+	"a b c": [
+		{
+			"where": "input/index/simple/symbols.txt",
+			"count": 10,
+			"index": 1
+		},
+		{
+			"where": "input/index/simple/a/b/c/d/subdir.txt",
+			"count": 1,
+			"index": 1
+		},
+		{
+			"where": "input/index/simple/capital_extension.TXT",
+			"count": 1,
+			"index": 1
+		},
+		{
+			"where": "input/index/simple/digits.txt",
+			"count": 1,
+			"index": 5
+		}
+	],
+	"ant": [
+		{
+			"where": "input/index/simple/symbols.txt",
+			"count": 10,
+			"index": 1
+		}
+	]
+}

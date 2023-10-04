@@ -200,7 +200,7 @@ public class Driver
 			workers.shutdown();        // return resources back to the system.
 		}
 		
-		SpringApplication.run(Driver.class, args);
+//		SpringApplication.run(Driver.class, args);
     
     
     System.out.println("");

@@ -1,0 +1,1925 @@
+{
+	"a": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			6
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			6
+		]
+	},
+	"albatross": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			4
+		]
+	},
+	"bird": {
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			10
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			10
+		]
+	},
+	"birds": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			9
+		]
+	},
+	"blackbird": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			4
+		]
+	},
+	"bluebird": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			12
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			4
+		]
+	},
+	"cardinal": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			13
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			4
+		]
+	},
+	"chickadee": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			14
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			4
+		]
+	},
+	"common": {
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			7
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			7
+		]
+	},
+	"crane": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			15
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			4
+		]
+	},
+	"crawler": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			2
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			2
+		]
+	},
+	"crow": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			16
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			4
+		]
+	},
+	"cuckoo": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			17
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			4
+		]
+	},
+	"dove": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			18
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			4
+		]
+	},
+	"duck": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			19
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			4
+		]
+	},
+	"eagle": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			20
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			4
+		]
+	},
+	"egret": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			21
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			4
+		]
+	},
+	"falcon": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			22
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			4
+		]
+	},
+	"finch": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			23
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			4
+		]
+	},
+	"goose": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			24
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			4
+		]
+	},
+	"gull": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			25
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			4
+		]
+	},
+	"hawk": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			26
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			4
+		]
+	},
+	"here": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			4
+		]
+	},
+	"heron": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			27
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			4
+		]
+	},
+	"home": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			60
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			11
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			11
+		]
+	},
+	"hummingbird": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			28
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			4
+		]
+	},
+	"ibis": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			29
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			4
+		]
+	},
+	"is": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			5
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			5
+		]
+	},
+	"kingfisher": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			30
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			4
+		]
+	},
+	"list": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			7
+		]
+	},
+	"loon": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			31
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			4
+		]
+	},
+	"magpie": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			32
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			4
+		]
+	},
+	"mallard": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			33
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			4
+		]
+	},
+	"meadowlark": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			34
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			4
+		]
+	},
+	"mockingbird": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			35
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			4
+		]
+	},
+	"nighthawk": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			36
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			4
+		]
+	},
+	"of": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			9
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			9
+		]
+	},
+	"osprey": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			37
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			4
+		]
+	},
+	"owl": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			38
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			4
+		]
+	},
+	"pelican": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			39
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			4
+		]
+	},
+	"pheasant": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			40
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			4
+		]
+	},
+	"pigeon": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			41
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			4
+		]
+	},
+	"puffin": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			42
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			4
+		]
+	},
+	"quail": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			43
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			4
+		]
+	},
+	"raven": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			44
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			4
+		]
+	},
+	"roadrunner": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			45
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			4
+		]
+	},
+	"robin": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			46
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			4
+		]
+	},
+	"sandpiper": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			47
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			4
+		]
+	},
+	"sparrow": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			48
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			4
+		]
+	},
+	"starling": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			49
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			4
+		]
+	},
+	"stork": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			50
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			4
+		]
+	},
+	"swallow": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			51
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			4
+		]
+	},
+	"swan": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			52
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			4
+		]
+	},
+	"tern": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			53
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			4
+		]
+	},
+	"test": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			3
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			3
+		]
+	},
+	"turkey": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			54
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			4
+		]
+	},
+	"type": {
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			8
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			8
+		]
+	},
+	"vulture": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			55
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			4
+		]
+	},
+	"warbler": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			56
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			4
+		]
+	},
+	"web": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/albatross.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/blackbird.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/bluebird.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cardinal.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/chickadee.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crane.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/crow.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/cuckoo.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/dove.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/duck.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/eagle.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/egret.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/falcon.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/finch.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/goose.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/gull.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hawk.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/heron.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/hummingbird.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/ibis.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/kingfisher.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/loon.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/magpie.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mallard.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/meadowlark.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/mockingbird.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/nighthawk.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/osprey.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/owl.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pelican.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pheasant.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/pigeon.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/puffin.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/quail.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/raven.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/roadrunner.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/robin.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sandpiper.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/sparrow.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/starling.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/stork.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swallow.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/swan.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/tern.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/turkey.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/vulture.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/warbler.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			1
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			1
+		]
+	},
+	"woodpecker": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			57
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/woodpecker.html": [
+			4
+		]
+	},
+	"wren": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			58
+		],
+		"http://www.cs.usfca.edu/~cs212/birds/wren.html": [
+			4
+		]
+	},
+	"yellowthroat": {
+		"http://cs.usfca.edu/~cs212/birds/birds.html": [
+			59
+		]
+	}
+}

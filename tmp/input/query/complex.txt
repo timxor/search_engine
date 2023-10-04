@@ -1,0 +1,178 @@
+40 14 24 34 44 54
+s t u v w x
+ha he hi ho hu
+ia ie ii io iu
+xa xe xi xo xu
+aa ee ii oo uu
+a b c d e
+p q r
+2 3
+za zb zc zd ze zf zg zh zi zj zk zl zm
+z
+a b
+p
+on oo op oq or os ot ou ov ow ox oy oz
+xn xo xp xq xr xs xt xu xv xw xx xy xz
+ya ye yi yo yu
+q r
+6 7
+ta tb tc td te tf tg th ti tj tk tl tm
+r
+e f g h
+nn no np nq nr ns nt nu nv nw nx ny nz
+p q r s t
+wa wb wc wd we wf wg wh wi wj wk wl wm
+k
+vn vo vp vq vr vs vt vu vv vw vx vy vz
+5 6 7 8 9
+yn yo yp yq yr ys yt yu yv yw yx yy yz
+ka kb kc kd ke kf kg kh ki kj kk kl km
+tn to tp tq tr ts tt tu tv tw tx ty tz
+0 1 2 3 4 5 6 7 8 9
+l
+pn po pp pq pr ps pt pu pv pw px py pz
+0 1 2 3 4
+2
+qn qo qp qq qr qs qt qu qv qw qx qy qz
+3
+o
+dn do dp dq dr ds dt du dv dw dx dy dz
+w
+xa xb xc xd xe xf xg xh xi xj xk xl xm
+k l
+bn bo bp bq br bs bt bu bv bw bx by bz
+50 15 25 35 45 55
+a b c
+c d
+an ao ap aq ar as at au av aw ax ay az
+a b c d e f g h i
+ga ge gi go gu
+d
+w x
+b
+y z
+u v
+0 1
+en eo ep eq er es et eu ev ew ex ey ez
+j k l m n o p q r
+5
+na nb nc nd ne nf ng nh ni nj nk nl nm
+cn co cp cq cr cs ct cu cv cw cx cy cz
+o p q r s t u
+a b c d e f g
+e
+s
+g h i
+c
+1
+q r s t
+x
+ea ee ei eo eu
+8
+d e f
+jn jo jp jq jr js jt ju jv jw jx jy jz
+hn ho hp hq hr hs ht hu hv hw hx hy hz
+za ze zi zo zu
+ta te ti to tu
+4
+ha hb hc hd he hf hg hh hi hj hk hl hm
+i j
+a b c d e f g h
+o p
+kn ko kp kq kr ks kt ku kv kw kx ky kz
+j k l
+ba bb bc bd be bf bg bh bi bj bk bl bm
+k l m n o p q r s t
+a b c d e f g h i j
+ca ce ci co cu
+8 9
+e f
+0
+v
+gn go gp gq gr gs gt gu gv gw gx gy gz
+sa se si so su
+ua ub uc ud ue uf ug uh ui uj uk ul um
+q r s t u v w x
+s t
+g h
+ca cb cc cd ce cf cg ch ci cj ck cl cm
+h
+ga gb gc gd ge gf gg gh gi gj gk gl gm
+zn zo zp zq zr zs zt zu zv zw zx zy zz
+rn ro rp rq rr rs rt ru rv rw rx ry rz
+ln lo lp lq lr ls lt lu lv lw lx ly lz
+70 17 27 37 47 57
+ra re ri ro ru
+wa we wi wo wu
+ua ue ui uo uu
+mn mo mp mq mr ms mt mu mv mw mx my mz
+a b c d
+pa pe pi po pu
+f
+g
+20 12 22 32 42 52
+aa ae ai ao au
+la le li lo lu
+m n o
+ma me mi mo mu
+qa qb qc qd qe qf qg qh qi qj qk ql qm
+y
+u v w x
+ea eb ec ed ee ef eg eh ei ej ek el em
+m n
+ya yb yc yd ye yf yg yh yi yj yk yl ym
+va vb vc vd ve vf vg vh vi vj vk vl vm
+oa ob oc od oe of og oh oi oj ok ol om
+ka ke ki ko ku
+80 18 28 38 48 58
+a b c d e f
+va ve vi vo vu
+fa fe fi fo fu
+u v w x y
+f g h i j
+ma mb mc md me mf mg mh mi mj mk ml mm
+ra rb rc rd re rf rg rh ri rj rk rl rm
+7
+j
+i j k l
+da de di do du
+9
+n
+fn fo fp fq fr fs ft fu fv fw fx fy fz
+sa sb sc sd se sf sg sh si sj sk sl sm
+un uo up uq ur us ut uu uv uw ux uy uz
+ja je ji jo ju
+h i j k l m n
+10 11 21 31 41 51
+30 13 23 33 43 53
+pa pb pc pd pe pf pg ph pi pj pk pl pm
+s t u
+ia ib ic id ie if ig ih ii ij ik il im
+6
+da db dc dd de df dg dh di dj dk dl dm
+aa ab ac ad ae af ag ah ai aj ak al am
+m n o p q r
+v w x
+la lb lc ld le lf lg lh li lj lk ll lm
+m
+ja jb jc jd je jf jg jh ji jj jk jl jm
+in io ip iq ir is it iu iv iw ix iy iz
+wn wo wp wq wr ws wt wu wv ww wx wy wz
+na ne ni no nu
+sn so sp sq sr ss st su sv sw sx sy sz
+qa qe qi qo qu
+g h i j k l
+k l m n o
+fa fb fc fd fe ff fg fh fi fj fk fl fm
+90 19 29 39 49 59
+t
+q
+m n o p
+4 5
+a
+i j k l m n o p
+ba be bi bo bu
+u
+60 16 26 36 46 56
+oa oe oi oo ou
+i
