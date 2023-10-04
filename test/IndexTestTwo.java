@@ -11,7 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 @RunWith(Enclosed.class)
-public class IndexTest extends ProjectTest {
+public class IndexTestTwo extends ProjectTest {
 
     public static class EnvironmentTest {
         @Test

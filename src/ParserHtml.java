@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -233,8 +234,8 @@ public class ParserHtml
 		int port = url.getPort() < 0 ? DEFAULT_PORT : url.getPort();
 
 		try (Socket socket = new Socket(url.getHost(), port);
-				BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));
-				PrintWriter writer = new PrintWriter(socket.getOutputStream()))
+             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8));
+             PrintWriter writer = new PrintWriter(socket.getOutputStream()))
 		{
 			writer.println(request);
 			writer.flush();

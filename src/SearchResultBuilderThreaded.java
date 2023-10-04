@@ -123,8 +123,8 @@ public class SearchResultBuilderThreaded extends SearchResultBuilder implements 
 	private void processQuery(String query, boolean exactSearch)
 	{
 		//clean the lines and sort.
-		query = super.clean(query);
-		String[] words = query.split(super.SPLIT_REGEX);
+		query = clean(query);
+		String[] words = query.split(SPLIT_REGEX);
 		Arrays.sort(words);
 		query =  String.join(" ", words);
 		ArrayList<SearchResult> results = (exactSearch) ? globalIndex.exactSearch(words) : globalIndex.partialSearch(words);

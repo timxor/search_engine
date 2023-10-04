@@ -38,7 +38,7 @@ public class ViewWebServer
 
 	public ViewWebServer(InvertedIndex index, SearchResultBuilder searcher, CrawlerInterface crawler, CLIParser parser)
 	{
-		this.index = index;
+		ViewWebServer.index = index;
 		this.searcher = searcher;
 		this.crawler = crawler;
 		this.parser = parser;

@@ -15,6 +15,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -34,7 +35,7 @@ public interface IndexBuilderInterface
 	 */
 	static void buildIndex(Path file, InvertedIndex index) throws IOException
 	{
-		Charset utf8 = Charset.forName("UTF-8");
+		Charset utf8 = StandardCharsets.UTF_8;
 		try (BufferedReader reader = Files.newBufferedReader(file, utf8))
 		{
 			Integer location = 1;
@@ -87,10 +88,10 @@ public interface IndexBuilderInterface
 	/**
 	 * Regular expression for removing special characters.
 	 */
-	static final String CLEAN_REGEX = "(?U)[^\\p{Alnum}\\p{Space}]+";
+    String CLEAN_REGEX = "(?U)[^\\p{Alnum}\\p{Space}]+";
 
 	/**
 	 * Regular expression for splitting text into words by whitespace.
 	 */
-	static final String SPLIT_REGEX = "(?U)\\p{Space}+";
+    String SPLIT_REGEX = "(?U)\\p{Space}+";
 }

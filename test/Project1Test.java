@@ -3,7 +3,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({IndexTest.class})
+@SuiteClasses({IndexTestTwo.class})
 public class Project1Test {
 	/*
 	 * To be eligible for code review for project 1, you must pass

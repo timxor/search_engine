@@ -36,7 +36,7 @@ public class ProjectTest {
     public static final String RESULTS_DEFAULT = "results.json";
 
     public static final int THREAD_DEFAULT = 5;
-    public static final int PORT_DEFAULT = 8080;
+    public static final int PORT_DEFAULT = 4000;
 
     /**
      * Checks whether environment setup is correct, with a input and output

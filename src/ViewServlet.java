@@ -79,7 +79,7 @@ public class ViewServlet extends HttpServlet
 
 			} else
 			{
-				crawler.startCrawl(req.getParameter("discover").toString());
+				crawler.startCrawl(req.getParameter("discover"));
 				ViewWebServer.index.toJSON("index.json");
 
 				writeLandingPageHeader(req, res, writer, searchQuery);
@@ -107,7 +107,7 @@ public class ViewServlet extends HttpServlet
 		String visitDate = cookies.get(VISIT_DATE);
 		String visitCount = cookies.get(VISIT_COUNT);
 
-		StringBuilder sb = new StringBuilder("");
+		StringBuilder sb = new StringBuilder();
 		// Update visit count as necessary and output information.
 		if((visitDate == null) || (visitCount == null))
 		{

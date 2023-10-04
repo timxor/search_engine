@@ -16,6 +16,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -31,7 +32,7 @@ public class JSONTreeWriter
 	 */
 	public static String writeHtml(TreeMap<String, ArrayList<SearchResult>> data) throws IOException
 	{
-		StringBuilder writer = new StringBuilder("");
+		StringBuilder writer = new StringBuilder();
 		writer.append("<pre>");
 		writer.append("{\n");
 		if(!data.isEmpty())
@@ -123,7 +124,7 @@ public class JSONTreeWriter
 	 */
 	public static void writeSearchResults(String outputFile, TreeMap<String, ArrayList<SearchResult>> data) throws IOException
 	{
-		Charset charset = Charset.forName("UTF-8");
+		Charset charset = StandardCharsets.UTF_8;
 		Path output_file = Paths.get(outputFile).toAbsolutePath().normalize();
 
 		try (BufferedWriter writer = Files.newBufferedWriter(output_file, charset))
@@ -303,7 +304,7 @@ public class JSONTreeWriter
 	 */
 	public static void toJSON(String outputFile, TreeMap<String, TreeMap<String, TreeSet<Integer>>> data) throws IOException
 	{
-		Charset charset = Charset.forName("UTF-8");
+		Charset charset = StandardCharsets.UTF_8;
 		Path output_file = Paths.get(outputFile).toAbsolutePath().normalize();
 
 		try (BufferedWriter writer = Files.newBufferedWriter(output_file, charset))

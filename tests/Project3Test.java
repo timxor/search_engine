@@ -4,7 +4,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({
-        IndexTest.class, SearchTest.class, CrawlTest.class
+        IndexTestTwo.class, SearchTest.class, CrawlTest.class
 })
 public class Project3Test {
     /*

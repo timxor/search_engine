@@ -4,7 +4,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({
-    IndexTest.class,
+    IndexTestTwo.class,
     SearchTest.class,
     ThreadTest.class,
     StressTest.class
