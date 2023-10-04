@@ -23,6 +23,8 @@ A java search engine that supports crawling, indexing, partial search and exact 
 
 mvn clean package
 
+java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
+
 ```
 
 
