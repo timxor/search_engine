@@ -24,6 +24,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+
 
 public class ParserHtml
 {
@@ -96,22 +101,36 @@ public class ParserHtml
 	 */
 	public static String fetchHTML(String currentUrl, String baseString)
 	{
-		URL target = null;
-		URL base;
+
+		URI baseURI = null;
+		URL targetURL = null;
 		try
 		{
-			base = new URL(baseString);
-			target = new URL(base, currentUrl);
-		} catch (MalformedURLException e)
+			baseURI = new URI(baseString);
+			URI targetURI = baseURI.resolve(currentUrl);
+			targetURL = targetURI.toURL();
+		}
+		catch (MalformedURLException | URISyntaxException e)
 		{
 			e.printStackTrace();
 		}
-		URI baseURI = null;
+		
+		//		URL targetURL = null;
+		//		URL base;
+		//		try
+		//		{
+		////			base = new URL(baseString);
+		////			targetURL = new URL(base, currentUrl);
+		//		} catch (MalformedURLException e)
+		//		{
+		//			e.printStackTrace();
+		//		}
+		//		URI baseURI = null;
 
 		try
 		{
-			assert target != null;
-			baseURI = new URI(target.getProtocol(), target.getAuthority(), target.getPath(), target.getQuery(), null);
+			assert targetURL != null;
+			baseURI = new URI(targetURL.getProtocol(), targetURL.getAuthority(), targetURL.getPath(), targetURL.getQuery(), null);
 		} catch (URISyntaxException e)
 		{
 			e.printStackTrace();
@@ -287,26 +306,45 @@ public class ParserHtml
 	 */
 	public static ArrayList<String> removeFragmentUrls(ArrayList<String> dirtyUrls, String baseURL)
 	{
+
 		ArrayList<String> clean1 = new ArrayList<>();
 		for (String url : dirtyUrls)
 		{
 			if(!url.contains("#"))
 			{
-				URL target;
-				URL base;
 				try
 				{
-					base = new URL(baseURL);
-					target = new URL(base, url);
-					clean1.add(target.toString());
-
-				} catch (MalformedURLException e)
+					URI baseURI = new URI(baseURL);
+					URI targetURI = baseURI.resolve(url);
+					clean1.add(targetURI.toString());
+				}
+				catch (URISyntaxException e)
 				{
 					e.printStackTrace();
 				}
 			}
 		}
 		return clean1;
+		//		ArrayList<String> clean1 = new ArrayList<>();
+		//		for (String url : dirtyUrls)
+		//		{
+		//			if(!url.contains("#"))
+		//			{
+		//				URL target;
+		//				URL base;
+		//				try
+		//				{
+		//					base = new URL(baseURL);
+		//					target = new URL(base, url);
+		//					clean1.add(target.toString());
+		//
+		//				} catch (MalformedURLException e)
+		//				{
+		//					e.printStackTrace();
+		//				}
+		//			}
+		//		}
+		//		return clean1;
 	}
 
 	public static class URLParser

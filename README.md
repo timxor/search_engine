@@ -17,11 +17,29 @@ A java search engine that supports crawling, indexing, partial search and exact 
 
 ## Run locally
 
-```sh
-$ javac src/*.java
-$ java src/ViewWebServer
+
+
 ```
 
-```sh
-Open browser to http://localhost:8080/
+mvn clean package
+
 ```
+
+
+```
+
+javac src/*.java
+java src/ViewWebServer
+
+```
+
+
+Open browser to:
+```
+http://localhost:8080/
+```
+
+
+
+
+

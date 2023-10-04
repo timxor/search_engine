@@ -56,14 +56,11 @@ public class SearchResultBuilder implements SearchResultBuilderInterface
 		searchResults = new TreeMap<>();
 		searchHistory = new TreeMap<>();
 	}
-
-	// TODO Breaks encapsulation!
-	public TreeMap<String, ArrayList<SearchResult>> getSearchResults()
-	{
-//		final TreeMap<String, ArrayList<SearchResult>> tmp = new TreeMap<>();
-//		tmp = Collections.copy(searchResults);
-		//searchResults = Collections.addAll(searchResults.entrySet());
-		return (TreeMap<String, ArrayList<SearchResult>>) searchResults.clone();
+	
+	public Map<String, ArrayList<SearchResult>> getSearchResults() {
+		TreeMap<String, ArrayList<SearchResult>> result = new TreeMap<>();
+		result.putAll(searchResults);
+		return result;
 	}
 
 	/**

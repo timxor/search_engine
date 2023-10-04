@@ -12,6 +12,8 @@
  */
 
 import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 
 public interface CrawlerInterface
@@ -28,12 +30,16 @@ public interface CrawlerInterface
 		String baseFromSeed = "";
 		try
 		{
-			URL url = new URL(seed);
+//			URL url = new URL(seed);
+			URL url = new URI(seed).toURL();
 			baseFromSeed = url.getProtocol() + "://" + url.getHost() + url.getPath();
 		} catch (MalformedURLException e)
 		{
-			System.err.println("Unable to get the base URL from the url: "+seed);
-		}
-		return baseFromSeed;
+			System.err.println("Error 1 getBaseURL(): Unable to get the base URL from the url: "+seed);
+		} catch (URISyntaxException e) {
+			System.err.println("Error 2 getBaseURL(): Unable to get the base URL from the url: "+seed);
+			throw new RuntimeException(e);
+        }
+        return baseFromSeed;
 	}
 }

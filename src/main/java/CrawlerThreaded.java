@@ -15,8 +15,8 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -30,7 +30,7 @@ public class CrawlerThreaded implements CrawlerInterface
 	/**
 	 * A sweet logger for logging.
 	 */
-	private static final Logger logger = LogManager.getLogger();
+	private static final Logger logger = LogManager.getLogger(CrawlerThreaded.class);
 
 	/**
 	 * A diligent work queue that loves to work.
@@ -143,15 +143,22 @@ public class CrawlerThreaded implements CrawlerInterface
 	 */
 	private String getBaseURL(String seed)
 	{
-		String baseFromSeed = "";
-		try
-		{
-			URL url = new URL(seed);
-			baseFromSeed = url.getProtocol() + "://" + url.getHost() + url.getPath();
-		} catch (MalformedURLException e)
-		{
+		try {
+			URI uri = new URI(seed);
+			return uri.getScheme() + "://" + uri.getHost() + uri.getPath();
+		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		}
-		return baseFromSeed;
+		return "";
+		//		String baseFromSeed = "";
+		//		try
+		//		{
+		//			URL url = new URL(seed);
+		//			baseFromSeed = url.getProtocol() + "://" + url.getHost() + url.getPath();
+		//		} catch (MalformedURLException e)
+		//		{
+		//			e.printStackTrace();
+		//		}
+		//		return baseFromSeed;
 	}
 }

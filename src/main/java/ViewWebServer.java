@@ -85,7 +85,8 @@ public class ViewWebServer
 		// turn on sessions and set context
 		servletContext = new ServletContextHandler(ServletContextHandler.SESSIONS);
 		servletContext.setContextPath("/");
-		servletContext.addServlet(ViewServlet.class, "/");
+		// servletContext.addServlet(ViewServlet.class, "/");
+		servletContext.addServlet(String.valueOf(ViewServlet.class), "/path");
 
 		// default handler for favicon.ico requests
 		DefaultHandler defaultHandler = new DefaultHandler();
