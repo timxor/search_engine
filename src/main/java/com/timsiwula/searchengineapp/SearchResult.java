@@ -11,6 +11,8 @@
  * Version:      =        0.001
  * ==============================================================================
  */
+package com.timsiwula.searchengineapp;
+
 public class SearchResult implements Comparable<SearchResult>
 {
 	private final String fileName;

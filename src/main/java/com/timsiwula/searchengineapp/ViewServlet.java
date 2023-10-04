@@ -17,6 +17,7 @@
  School:       =        University of San Francisco
  ==============================================================================
  */
+package com.timsiwula.searchengineapp;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
@@ -246,8 +247,6 @@ public class ViewServlet extends HttpServlet
 
 		writer.printf("\t\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"//maxcdn.bootstrapcdn" + ".com/bootstrap/3.3.4/css/bootstrap.min.css\"/>%n");
 		writer.printf("\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min" + ".js\"></script>%n");
-		//writer.printf("\t<script type=\"text/javascript\" src=\"https://www.dropbox
-		// .com/s/7l2ej0o22j3nok5/main.css?dl=0\"></script>%n");
 
 		// TODO CSS BODY
 		writer.printf("<style>%n");

@@ -11,6 +11,7 @@
  * Version:      =        0.001
  * ==============================================================================
  */
+package com.timsiwula.searchengineapp;
 
 public class Driver
 {
@@ -82,6 +83,7 @@ public class Driver
 	 */
 	public static void main(String[] args)
 	{
+		System.out.println("Driver.java.main()");
 		// declare interface classes
 		CLIParser parser = new CLIParser(args);
 		ThreadedWorkQueue workers = null;

@@ -17,6 +17,10 @@
  School:       =        University of San Francisco
  ==============================================================================
  */
+package com.timsiwula.searchengineapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
@@ -25,9 +29,11 @@ import org.eclipse.jetty.server.handler.DefaultHandler;
 import org.eclipse.jetty.server.handler.HandlerList;
 import org.eclipse.jetty.server.handler.ResourceHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
+import org.springframework.javapoet.ClassName;
 
 import java.io.IOException;
 
+//@SpringBootApplication
 public class ViewWebServer
 {
 	public static InvertedIndex index;
@@ -43,13 +49,7 @@ public class ViewWebServer
 		this.crawler = crawler;
 		this.parser = parser;
 	}
-
-	public void setPortNumber(int proposedPortNumber, int defaultPortNumber)
-	{
-		this.portNumber = (proposedPortNumber < 1 || proposedPortNumber > 65535) ? defaultPortNumber : proposedPortNumber;
-	}
-
-
+	
 	public static void main(String[] args) throws Exception
 	{
 		// for testing without running from the driver
@@ -60,8 +60,16 @@ public class ViewWebServer
 		ViewWebServer webServer = new ViewWebServer(index, searcher, crawler, parser);
 		webServer.setPortNumber(8080, 8080);
 		webServer.startServer();
+//		SpringApplication.run(ViewWebServer.class, args);
+//		System.out.println("ViewWebServer.java.main()");
+//		System.out.println("\n\napi server running at:  http://localhost:8080   \n\n");
 	}
-
+	
+	public void setPortNumber(int proposedPortNumber, int defaultPortNumber)
+	{
+		this.portNumber = (proposedPortNumber < 1 || proposedPortNumber > 65535) ? defaultPortNumber : proposedPortNumber;
+	}
+	
 	public void startServer()
 	{
 		// seed the database for testing
@@ -85,8 +93,8 @@ public class ViewWebServer
 		// turn on sessions and set context
 		servletContext = new ServletContextHandler(ServletContextHandler.SESSIONS);
 		servletContext.setContextPath("/");
-		// servletContext.addServlet(ViewServlet.class, "/");
-		servletContext.addServlet(String.valueOf(ViewServlet.class), "/path");
+		String className = ClassName.class.getSimpleName();
+	    servletContext.addServlet(className, "/");
 
 		// default handler for favicon.ico requests
 		DefaultHandler defaultHandler = new DefaultHandler();

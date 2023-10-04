@@ -11,6 +11,7 @@
  * Version:      =        0.001
  * ==============================================================================
  */
+package com.timsiwula.searchengineapp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,10 +25,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
 
 
 public class ParserHtml

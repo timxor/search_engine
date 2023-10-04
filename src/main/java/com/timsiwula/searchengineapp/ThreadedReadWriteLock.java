@@ -20,6 +20,8 @@
  * first thread that acquires the appropriate lock should be allowed to
  * continue.
  */
+package com.timsiwula.searchengineapp;
+
 public class ThreadedReadWriteLock
 {
 	private int readers;

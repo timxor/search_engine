@@ -25,6 +25,19 @@ mvn clean package
 
 java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
 
+
+
+# maven clean rebuild
+
+rm -rf target
+
+mvn clean compile -U
+mvn -U clean install
+
+mvn -U clean package
+java -jar target/SearchEngine-0.0.1-SNAPSHOT.jar
+
+
 ```
 
 
