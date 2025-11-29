@@ -19,8 +19,8 @@
  */
 package com.timsiwula.searchengineapp;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
