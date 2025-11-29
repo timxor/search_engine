@@ -199,19 +199,23 @@ public class Driver
 		{
 			workers.shutdown();        // return resources back to the system.
 		}
-		
-//		SpringApplication.run(Driver.class, args);
     
-    
-    System.out.println("");
-    System.out.println("");
-    System.out.println("* ============================================================================== *");
-    System.out.println("");
-    System.out.println("Driver.java --> main()");
-    System.out.println("");
-    System.out.println("Driver running at:  http://localhost:8080/ ");
-    System.out.println("");
-    System.out.println("* ============================================================================== *");
-	
-  }
+        System.out.println("* ============================================================================== *");
+        System.out.println("Driver.java --> main()");
+        System.out.println("Driver running at:  http://localhost:8080/ ");
+        System.out.println("* ============================================================================== *");
+
+        SpringApplication.run(Driver.class, args);
+
+        /*
+                TODO@TIM
+                 Alternatively, if you want Spring Boot to manage the application lifecycle (which is cleaner),
+                 uncomment this line you already have commented out:
+                 SpringApplication.run(Driver.class, args);
+                 Then remove all your custom logic from main() and convert it to Spring components.
+                 This is the forward-thinking approach—Spring Boot handles keeping
+                 the application alive automatically and provides better lifecycle management.
+                  https://claude.ai/share/120735c7-c0ac-4d68-9f26-e0cb2bb1bf40
+         */
+    }
 }

@@ -31,8 +31,8 @@ public class CLIParser
 	 */
 	public CLIParser(String[] args)
 	{
-		parseArguments(args);
-		argumentMap = new HashMap<>();
+        argumentMap = new HashMap<>();
+        parseArguments(args);
 	}
 
 	/**
