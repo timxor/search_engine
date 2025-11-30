@@ -17,44 +17,31 @@ A java search engine that supports crawling, indexing, partial search and exact 
 
 ## Run locally
 
-
-
 ```
+# java version
+java -version == 17.0.16-amzn
 
-mvn clean package
 
+# build
+mvn clean package -DskipTests
+
+
+# run
 java -jar target/searchengineapp-0.0.1-SNAPSHOT.jar
-
-
-
-# maven clean rebuild
-
-rm -rf target
-
-mvn clean compile -U
-mvn -U clean install
-
-mvn -U clean package
-java -jar target/searchengineapp-0.0.1-SNAPSHOT.jar
-
-
 ```
 
-
-```
-
-javac src/main/java/com/timsiwula/searchengineapp/*.java
-java src/main/java/com/timsiwula/searchengineapp/Driver
-
-```
-
+# open ui
 
 Open browser to:
+
 ```
 http://localhost:8080/
 ```
 
 
+# notes
 
-
-
+```
+javac src/main/java/com/timsiwula/searchengineapp/*.java
+java src/main/java/com/timsiwula/searchengineapp/Driver
+```

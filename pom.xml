@@ -84,13 +84,16 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.timsiwula.searchengineapp.Driver</mainClass>
-				</configuration>
-			</plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.timsiwula.searchengineapp.ViewWebServer</mainClass>
+                </configuration>
+            </plugin>
+
+
 		</plugins>
 	</build>
 

@@ -205,7 +205,15 @@ public class Driver
         System.out.println("Driver running at:  http://localhost:8080/ ");
         System.out.println("* ============================================================================== *");
 
-        SpringApplication.run(Driver.class, args);
+
+        // Keep the application running
+        try {
+            Thread.currentThread().join();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            System.err.println("Application interrupted: " + e.getMessage());
+        }
+
 
         /*
                 TODO@TIM
@@ -217,5 +225,9 @@ public class Driver
                  the application alive automatically and provides better lifecycle management.
                   https://claude.ai/share/120735c7-c0ac-4d68-9f26-e0cb2bb1bf40
          */
+
+        // SpringApplication.run(Driver.class, args);
+
+
     }
 }

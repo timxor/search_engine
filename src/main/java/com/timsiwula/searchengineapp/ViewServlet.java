@@ -19,11 +19,18 @@
  */
 package com.timsiwula.searchengineapp;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+//import javax.servlet.ServletException;
+//import javax.servlet.http.Cookie;
+//import javax.servlet.http.HttpServlet;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.DateFormat;
@@ -45,58 +52,120 @@ public class ViewServlet extends HttpServlet
 	 */
 	private static final Crawler crawler = new Crawler(ViewWebServer.index);
 
-	@Override protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
-	{
-		String dc = req.getParameter("discover");
-		long startTimeAccountant = System.nanoTime();
-		PrintWriter writer = res.getWriter();
-		String searchQuery = getSearchQuery(req);
+//	@Override protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
+//	{
+//		String dc = req.getParameter("discover");
+//		long startTimeAccountant = System.nanoTime();
+//		PrintWriter writer = res.getWriter();
+//		String searchQuery = getSearchQuery(req);
+//
+//		if(req.getParameter("query") != null)
+//		{
+//			System.out.println("you clicked search!");
+//			writeSearchPageHeader(req, res, writer, searchQuery);
+//			writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, false);
+//		}
+//
+//		if(req.getParameter("history") != null)
+//		{
+//			System.out.println("you clicked search history!");
+//			writeSearchPageHeader(req, res, writer, searchQuery);
+//			writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, true);
+//		}
+//
+//
+//		if(req.getParameter("discover") != null)
+//		{
+//
+//			System.out.println("you clicked discover! arg = " + req.getParameter("discover"));
+//
+//			if(dc.isEmpty())
+//			{
+//				System.out.println("dc is empty");
+//				writeLandingPageHeader(req, res, writer, searchQuery);
+//				writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, true);
+//
+//			} else
+//			{
+//				crawler.startCrawl(req.getParameter("discover"));
+//				ViewWebServer.index.toJSON("index.json");
+//
+//				writeLandingPageHeader(req, res, writer, searchQuery);
+//				writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
+//			}
+//		}
+//
+//		if(req.getParameter("query") == null && req.getParameter("discover") == null)
+//		{
+//			System.out.println("you arrived at the landing page!");
+//			writeLandingPageHeader(req, res, writer, searchQuery);
+//			writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
+//		}
+//
+//		writeFooter(req, res, writer);
+//	}
 
-		if(req.getParameter("query") != null)
-		{
-			System.out.println("you clicked search!");
-			writeSearchPageHeader(req, res, writer, searchQuery);
-			writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, false);
-		}
 
-		if(req.getParameter("history") != null)
-		{
-			System.out.println("you clicked search history!");
-			writeSearchPageHeader(req, res, writer, searchQuery);
-			writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, true);
-		}
+    @Override protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
+    {
+        long startTimeAccountant = System.nanoTime();
+        PrintWriter writer = res.getWriter();
+        String searchQuery = getSearchQuery(req);
 
+        if(req.getParameter("query") != null)
+        {
+            System.out.println("you clicked search!");
+            writeSearchPageHeader(req, res, writer, searchQuery);
+            writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, false);
+        }
 
-		if(req.getParameter("discover") != null)
-		{
+        if(req.getParameter("history") != null)
+        {
+            System.out.println("you clicked search history!");
+            writeSearchPageHeader(req, res, writer, searchQuery);
+            writeSearchPageBody(req, res, writer, searchQuery, startTimeAccountant, true);
+        }
 
-			System.out.println("you clicked discover! arg = " + req.getParameter("discover"));
+        if(req.getParameter("discover") != null)
+        {
+            String discoverUrl = req.getParameter("discover");
+            System.out.println("you clicked discover! arg = " + discoverUrl);
 
-			if(dc.isEmpty())
-			{
-				System.out.println("dc is empty");
-				writeLandingPageHeader(req, res, writer, searchQuery);
-				writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, true);
+            if(discoverUrl.isEmpty())
+            {
+                System.out.println("discover URL is empty");
+                writeLandingPageHeader(req, res, writer, searchQuery);
+                writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, true);
+            }
+            else if(!discoverUrl.startsWith("http://") && !discoverUrl.startsWith("https://"))
+            {
+                System.out.println("Invalid URL format: " + discoverUrl);
+                writeLandingPageHeader(req, res, writer, searchQuery);
+                writer.printf("<div style='color: red; padding: 20px;'>");
+                writer.printf("Please enter a valid URL starting with http:// or https://");
+                writer.printf("</div>");
+                writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, true);
+            }
+            else
+            {
+                System.out.println("Starting crawl for: " + discoverUrl);
+                crawler.startCrawl(discoverUrl);
+                ViewWebServer.index.toJSON("index.json");
+                writeLandingPageHeader(req, res, writer, searchQuery);
+                writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
+            }
+        }
 
-			} else
-			{
-				crawler.startCrawl(req.getParameter("discover"));
-				ViewWebServer.index.toJSON("index.json");
+        if(req.getParameter("query") == null && req.getParameter("discover") == null && req.getParameter("history") == null)
+        {
+            System.out.println("you arrived at the landing page!");
+            writeLandingPageHeader(req, res, writer, searchQuery);
+            writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
+        }
 
-				writeLandingPageHeader(req, res, writer, searchQuery);
-				writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
-			}
-		}
+        writeFooter(req, res, writer);
+    }
 
-		if(req.getParameter("query") == null && req.getParameter("discover") == null)
-		{
-			System.out.println("you arrived at the landing page!");
-			writeLandingPageHeader(req, res, writer, searchQuery);
-			writeLandingPageBody(req, res, writer, searchQuery, startTimeAccountant, false, false);
-		}
-
-		writeFooter(req, res, writer);
-	}
 
 	public static final String VISIT_DATE = "Visited";
 	public static final String VISIT_COUNT = "Count";
@@ -109,63 +178,26 @@ public class ViewServlet extends HttpServlet
 		String visitCount = cookies.get(VISIT_COUNT);
 
 		StringBuilder sb = new StringBuilder();
-		// Update visit count as necessary and output information.
-		if((visitDate == null) || (visitCount == null))
-		{
-			visitCount = "0";
-
-			//			sb.append("You have never been to this webpage before! ");
-			//			sb.append("Thank you for visiting.");
-
-			//			writer.printf("You have never been to this webpage before! ");
-			//			writer.printf("Thank you for visiting.");
-		} else
-		{
+		if((visitDate == null) || (visitCount == null)) {
+            visitCount = "0";
+		} else {
 			visitCount = Integer.toString(Integer.parseInt(visitCount) + 1);
-
-			sb.append("You have visited this website " + visitCount + " times. ");
-			//writer.printf("You have visited this website %s times. ", visitCount);
-			sb.append("Your last visit was on " + visitDate);
-
-			//writer.printf("Your last visit was on %s.", visitDate);
+			sb.append("You have visited this website ").append(visitCount).append(" times. ");
+			sb.append("Your last visit was on ").append(visitDate);
 		}
 
-		sb.append("</p>%n");
-		//writer.printf("</p>%n");
-
-		// Checks if the browser indicates visits should not be tracked.
-		// This is not a standard header!
-		// Try this in Safari private browsing mode.
-		if(request.getIntHeader("DNT") != 1)
-		{
-			response.addCookie(new Cookie("Visited", getLongDate()));
-			response.addCookie(new Cookie("Count", visitCount));
-		} else
-		{
+        // Check DNT header
+		if(request.getIntHeader("DNT") != 1) {
+            // Remove spaces from cookie values - RFC6265 compliance
+            String dateValue = getLongDate().replace(" ", "_");
+            response.addCookie(new Cookie("Visited", dateValue));
+            response.addCookie(new Cookie("Count", visitCount));
+		} else {
 			clearCookies(request, response);
-			//sb.append("\"<p>Your visits will not be tracked.</p>\"%n");
-
-			//writer.printf("<p>Your visits will not be tracked.</p>");
 		}
 
-
-		sb.append("%n");
-		sb.append("<p style=\"font-size: 13pt; font-style: italic; text-align: center;");
-		sb.append("border-top: 1px solid #eeeeee; margin-bottom: 1ex;\">");
-
-		sb.append(
-				"Page <a href=\"" + request.getRequestURL() + request.getRequestURL() + "\">" + getShortDate() + " </a> generated" + " on" + getShortDate() + "  by thread " + Thread.currentThread()
-						.getName());
-		sb.append("</p>%n%n");
-
-		writer.printf(sb.toString());
-		//		writer.printf("%n");
-		//		writer.printf("<p style=\"font-size: 13pt; font-style: italic; text-align: center;");
-		//		writer.printf("border-top: 1px solid #eeeeee; margin-bottom: 1ex;\">");
-		//
-		//		writer.printf("Page <a href=\"%s\">%s</a> generated on %s by thread %s. ", request.getRequestURL(), request.getRequestURL(), getShortDate(), Thread.currentThread().getName());
-		//
-		//		writer.printf("</p>%n%n");
+        sb.append("</p>%n%n");
+        writer.printf(sb.toString());
 	}
 
 
