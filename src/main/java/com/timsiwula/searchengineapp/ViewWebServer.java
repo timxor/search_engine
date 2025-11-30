@@ -20,7 +20,6 @@
 
 package com.timsiwula.searchengineapp;
 
-
 import java.io.IOException;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
@@ -30,7 +29,7 @@ import org.eclipse.jetty.server.handler.HandlerList;
 import org.eclipse.jetty.server.handler.ResourceHandler;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-
+import org.eclipse.jetty.util.Index;
 
 public class ViewWebServer
 {
@@ -71,8 +70,17 @@ public class ViewWebServer
 	public void startServer()
 	{
 		// seed the database for testing
-		 crawler.startCrawl("http://cs.usfca.edu/~cs212/wdghtml40/alist.html");
-		 index.toJSON("index.json");
+        // method 1 - use a seed url website
+        // crawler.startCrawl("http://cs.usfca.edu/~cs212/wdghtml40/alist.html");
+
+        // method 2 - use local files to build seed index
+        // Seed the index from local test files on startup
+        System.out.println("Building search index from input/index directory...");
+        IndexBuilder indexBuilder = new IndexBuilder(index);
+        indexBuilder.buildIndex("input/index");
+        // DirectoryTraverser traverser = new DirectoryTraverser("input/index", index);
+        index.toJSON("index.json");
+        System.out.println("Index built and saved to index.json");
 
 		// add static resource holders to web server
 		// this indicates where web files are accessible on the file system
@@ -91,11 +99,7 @@ public class ViewWebServer
 		// turn on sessions and set context
 		servletContext = new ServletContextHandler(ServletContextHandler.SESSIONS);
 		servletContext.setContextPath("/");
-
-
-
         servletContext.addServlet(new ServletHolder(new ViewServlet()), "/");
-
 
         // default handler for favicon.ico requests
 		DefaultHandler defaultHandler = new DefaultHandler();
@@ -106,7 +110,7 @@ public class ViewWebServer
 
 		// setup handler order
 		HandlerList handlers = new HandlerList();
-		handlers.setHandlers(new Handler[]{defaultContext, servletContext});
+		handlers.setHandlers(new Handler[] {defaultContext, servletContext} );
 
 		openWebBrowser();
 
@@ -114,18 +118,15 @@ public class ViewWebServer
 		Server server = new Server(portNumber);
 		server.setHandler(handlers);
 
-
 		try
 		{
-			server.start();
+            server.start();
 			server.join();
 		} catch (Exception e)
 		{
 			e.printStackTrace();
 		}
-
 	}
-
 
 	public void openWebBrowser()
 	{
