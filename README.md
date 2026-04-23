@@ -19,8 +19,9 @@ A java search engine that supports crawling, indexing, partial search and exact 
 
 ```
 # java version
-java -version == 17.0.16-amzn
+# java -version == 17.0.16-amzn
 
+sdk use java 17.0.18-amzn
 
 # build
 mvn clean package -DskipTests
